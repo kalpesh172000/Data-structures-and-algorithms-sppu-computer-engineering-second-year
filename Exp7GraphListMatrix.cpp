@@ -6,7 +6,7 @@ Identify the prominent landmarks as nodes and perform DFS and BFS on that .
 */
 
 //note; in this the location data is predefined and isn't set up to accept from user 
-//check exp8 for taking input from user
+//check exp8 for taking location input from user
 
 #include<iostream>
 
