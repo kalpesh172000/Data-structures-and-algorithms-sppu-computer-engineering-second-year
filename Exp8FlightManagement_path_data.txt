@@ -1,0 +1,24 @@
+mumbai pune 1
+y
+pune goa 2
+y
+pune chennai 5
+y
+goa chennai 5
+y
+chennai banglore 3
+y
+banglore bhopal 4
+y
+bhopal kolkata 6
+y
+bhopal jaipur 4
+y
+jaipur delhi 4
+y
+mumbai kolkata 7
+y
+mumbai jaipur 6
+y
+sinnar thane 4
+n
