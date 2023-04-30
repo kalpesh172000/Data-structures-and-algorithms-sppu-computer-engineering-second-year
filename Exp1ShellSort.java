@@ -1,3 +1,5 @@
+package dsa_lab_all;
+
 /*
 data stucture and alogorithm lab asignment No. 1:
 Implement the Heap/Shell sort algorithm implemented in java 
