@@ -1,7 +1,7 @@
 package dsa_lab_all;
 
 /*
-data stucture and alogorithm lab asignment No. 1:
+data structures and algorithm lab assignment No. 1:
 Implement the Heap/Shell sort algorithm implemented in java 
 demonstrating head/shell data structure with modularity of programming language
 */

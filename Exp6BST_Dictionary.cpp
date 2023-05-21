@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 6 :
+data structures and algorithm lab assignment No. 6 :
 A Dictionary stores keywords and its meanings .
 Provide facility for -
 1. adding new keywords

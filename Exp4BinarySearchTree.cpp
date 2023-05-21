@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No.  :
+data structures and algorithm lab assignment No. 4 :
 Beginning with an empty binary search tree Construct a binary search tree by inserting the values in the order given . After constructing a binary tree -
 i . 	Insert new node
 ii .	Find number of nodes in longest path from root

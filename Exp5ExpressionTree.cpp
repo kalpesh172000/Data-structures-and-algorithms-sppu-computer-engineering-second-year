@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 5 :
+data structures and algorithm lab assignment No. 5 :
 Construct an expression tree from the given prefix expression eg . +--a*bc/def and 
 traverse it using post order traversal non recursive and then delete the entire tree .
 */

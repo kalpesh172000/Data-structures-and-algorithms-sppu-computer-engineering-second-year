@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 8 :
+data structures and algorithm lab assignment No. 8 :
 There are flight paths between cities .
 If there is a flight between city A and city B then there is an edge between the cities.
 The cost of the edge can be the time that flight takes to reach city B from A,

@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 2:
+data structures and algorithm lab assignment No. 2:
 Consider the telephone book database of N clients.
 Make use of a hash table implementation to quickly look up a client's telephone number.
 Make use of two collision handeling techniques 

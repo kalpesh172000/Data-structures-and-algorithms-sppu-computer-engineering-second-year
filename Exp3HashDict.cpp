@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 3 :
+data structures and algorithm lab assignment No. 3 :
 Implement all the functions of a dictinary (ADT) using hashing 
 and handle collisions using chaining with / without replacement.
 Data: Set of (key,value) pairs, Keys are mapped to values, 

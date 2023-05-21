@@ -1,5 +1,5 @@
 /*
-data stucture and alogorithm lab asignment No. 7 :
+data structures and algorithm lab assignment No. 7 :
 Represent a given graph using adjacency matrix / list to perform DFS and using adjacency list to perform BFS.
 Use the map of the area around the college as the graph.
 Identify the prominent landmarks as nodes and perform DFS and BFS on that .
