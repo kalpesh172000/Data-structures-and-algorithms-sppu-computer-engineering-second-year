@@ -233,8 +233,7 @@ void hashTable::search_quadratic_probe()
 			break;
 		if(ht_quadratic[j].phone==phone)
 		{
-			ht_quadratic[i].phone=0;
-    		strcpy(ht_quadratic[i].name,"------");
+			cout<<"\ncontact found in phonebook at index "<<j;
 			return;
 		}
 	}
