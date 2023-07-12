@@ -24,8 +24,8 @@ using namespace std;
 class entry
 {
     public:
-    char word[30]; 
-    char meaning[60];
+    string word; 
+    string meaning;
     entry* next;
 
 };
@@ -53,7 +53,7 @@ class dictionary
 
 int dictionary::hashFun(char word)
 {
-	return word-97;
+	return word-97; //remember this for exam
 }
 
 
@@ -66,7 +66,7 @@ void dictionary::insert()
 
     cout<<"\nenter the word: ";
     cin.ignore();
-	cin.getline(word,30);
+	cin.getline(word,30);//works for strings as well it would take spaces also
 	cout<<"\nenter the meaning of the word: ";
 	cin.getline(meaning,50);
 	
@@ -89,8 +89,8 @@ void dictionary::insert()
         cout<<"memory not allocated"<<endl;
         return;
     }
-    strcpy(temp->word,word);
-    strcpy(temp->meaning,meaning);
+    temp->word=word;
+    temp->meaning=meaning;
     temp->next=NULL;
     
     
@@ -101,9 +101,9 @@ void dictionary::insert()
     }
     else
     {
-    	while(current->next==NULL)
+    	while(current->next!=NULL)
     	{
-    		if(strcmp(current->word,word)==0) //benifit of adding entry at the end of chain is that you can search for copy while traversing to end 
+    		if(current->word==word) //benifit of adding entry at the end of chain is that you can search for copy while traversing to end 
     		{
     			cout<<"\nword is already present in the dictionary";
     			return;
@@ -132,7 +132,7 @@ void dictionary::search()
     temp=head[position];
     while(temp!=NULL)
     {
-        if(strcmp(temp->word,word)==0)
+        if(temp->word==word)
         {
         	cout<<"\nmeaning: "<<temp->meaning;
 	        return;
@@ -150,7 +150,7 @@ void dictionary::del_entry()
 
     cout<<"\nenter the word you want to delete: ";
 	cin.ignore();
-	cin.getline(word,30);
+	cin.getline(word,30);//works for strings as well it would take spaces also
 
 	int position;
 	position=hashFun(word[0]);
@@ -161,7 +161,7 @@ void dictionary::del_entry()
         return;
     }
 
-    if(strcmp(head[position]->word,word)==0)
+    if(head[position]->word==word)
     {
         temp=head[position];
         head[position]=head[position]->next;
@@ -175,6 +175,7 @@ void dictionary::del_entry()
 
     while(temp!=NULL)
     {
+        if(temp->word==word)
         {
             current->next=temp->next;
             delete temp;
